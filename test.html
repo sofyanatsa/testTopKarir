@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h4>1.	Hitung total jumlah bilangan yang ada di dalam kumpulan integer tesebut</h4>
+
+<p id="demo"></p>
+
+<script>
+var x = [6, 8, 1, 4, 7, 2];
+var y=0;
+var t="<ul>";
+for(i=0; i<x.length; i++){
+	y+=x[i]; 
+	t+= "<li>" + x[i] + " " + y + "</li>";
+}
+t+="</ul>";
+document.getElementById("demo").innerHTML = "Output " + y;
+</script>
+
+
+</body>
+</html>
